@@ -1,0 +1,22 @@
+button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+   justify-self: flex-start; 
+   float: left;
+   clear: both;
+}
+nav.nav2{
+    border: 0;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav.nav2 .burger-div{
+    flex: 10;
+    display: flex;
+    justify-content: flex-end;
+}
+nav.nav2 .burger-div a{
+    padding: 10px 0;
+    margin: 0 20px;
+}

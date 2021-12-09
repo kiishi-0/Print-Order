@@ -1,14 +1,20 @@
 import './App.css';
-import Nav1 from './Components/Nav1/Nav1';
-import Nav2 from './Components/Nav2/Nav2';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import SignUpForm from './Components/SignUpForm/SignUpForm'
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <Nav1 ></Nav1>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        
+        <Switch >
+          <Route path="/">
+            <SignUpForm />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+    
   );
 }
 
