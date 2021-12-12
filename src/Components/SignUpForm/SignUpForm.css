@@ -7,10 +7,12 @@ header{
 }
 .nav1{
     border: 0;
+    margin-bottom: 20px;
 }
 .login-section section{
     display: flex;
     flex-direction: column;
+    /* background-color: red; */
 }
 .login-section section h1{
     width: 100%;
@@ -71,3 +73,8 @@ header{
 
 }
 
+@media only screen and (max-width: 375px) {
+    .login-section section form input[type="submit"]{
+        width: 75%;
+    }
+}

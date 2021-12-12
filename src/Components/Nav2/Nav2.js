@@ -12,8 +12,8 @@ class Nav2 extends React.Component{
                 </button>
                 <div class="burger-div">
                     <a href="#">HOME</a>
-                    <a href="#">ABOUT US</a>
-                    <a href="#">CONTACT US</a>
+                    <a href="#">ABOUT</a>
+                    <a href="#">CONTACTS</a>
                 </div>
             </nav>
         )

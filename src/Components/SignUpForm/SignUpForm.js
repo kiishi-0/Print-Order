@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav1 from '../Nav1/Nav1';
+// import Nav2 from '../Nav2/Nav2';
 import './SignUpForm.css';
 
 class SignUpForm extends React.Component{
@@ -9,6 +10,7 @@ class SignUpForm extends React.Component{
          <main class="login-section">
             <header>
                 <Nav1 />
+                {/* <Nav2 /> */}
             </header> 
             <section>
                 <h1>Sign Up</h1>
