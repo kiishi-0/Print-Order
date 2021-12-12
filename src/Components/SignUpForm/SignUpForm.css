@@ -40,7 +40,7 @@ header{
     font-size: 20px;
     font-family: Poppins, 'Segoe UI', Roboto, Tahoma, Geneva, Verdana, sans-serif;
 }
-.login-section section form input:focus{
+.login-section section form input:focus, .login-section section form textarea:focus{
     border: 3px solid #555;
 }
 .login-section section form input[type="submit"]{
@@ -51,6 +51,20 @@ header{
     font-size: 20px;
     width: 250px;
     transition: background ease-in-out .25s;
+    cursor: pointer;
+}
+.login-section section form textarea{
+    border: 0;
+    border: 1px solid #707070;
+    font-family: Poppins, 'Segoe UI', Roboto, sans-serif;
+    border-radius: 20px;
+    resize: none;
+    width: 75%;
+    font-size: 20px;
+    outline: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    transition: 0.25s;
 }
 .login-section section form input[type="submit"]:hover, .login-section section form input[type="submit"]:focus{
     background-color: #8f8f8f;

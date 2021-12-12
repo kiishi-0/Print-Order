@@ -13,14 +13,11 @@ class SignUpForm extends React.Component{
             <section>
                 <h1>Sign Up</h1>
                 <form method="#" action='#' autoComplete='on'>
-                    <input type="text" name='firstname' placeholder='Firstname'/>
-                    <input type="text" name='lastname'  placeholder='Lastname'/>
+                    <input type="text" name='name' placeholder='Company Name'/>
                     <input type="email" name='email'  placeholder='Email'/>
                     <input type="password" name='password'  placeholder='Password'/>
                     <input type="password" name='confirm password'  placeholder='Confirm Password'/>
-                    <textarea name="w3review" rows="4" cols="50">
-                        At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
-                    </textarea>
+                    <textarea name="w3review" rows="5" placeholder='Company Address'></textarea>
                     <input type="submit" value="Login"/>
                 </form>
             </section>
