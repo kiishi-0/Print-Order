@@ -1,6 +1,6 @@
 import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import SignUpForm from './Components/SignUpForm/SignUpForm'
+import Home from './Pages/Home/Home'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         
         <Switch >
           <Route path="/">
-            <SignUpForm />
+            <Home />
           </Route>
         </Switch>
       </div>

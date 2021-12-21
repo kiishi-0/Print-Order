@@ -1,0 +1,46 @@
+.special-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  
+  }
+  .special-section h1{
+    width: 100%;
+    text-align: left;
+    padding-left: 10%;
+    margin-bottom: 50px;
+    color: #EB0F00;
+    font-family: 'EngraversGothic BT', 'Segoe UI', serif;
+  }
+  .special-section .back{
+    display: flex;
+    width: 90%;
+    /* background-color: bisque; */
+    align-items: center;
+  }
+  .special-section .back .slider-back{
+    display: flex;
+    width: 100%;
+    /* background-color: bisque; */
+    overflow-y: hidden;
+  }
+  .special-section .back .slider-back .slider-div{
+    display: flex;
+    width: 100%;
+    /* background-color: burlywood; */
+    justify-content: flex-start;
+    overflow: hidden;
+    flex-shrink: 0;
+    /* flex-wrap: wrap; */
+  }
+  .special-section .back .slider-back .slider-div .food{
+    min-width: 250px;
+    height: 300px;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+  }
