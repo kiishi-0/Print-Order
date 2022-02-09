@@ -2,13 +2,13 @@ import React from 'react';
 import arrowLeft from '../../images/arrow-left.svg'
 import arrowRight from '../../images/arrow-right.svg'
 
-
+import '../Categories/Categories.css';
 
 class Categories extends React.Component{
     render(){
         return(
             <section class="categories-section">
-                <h1>Categories</h1>
+                <h3>Categories</h3>
         <div class="back">
             <div class="arr1 arrow" id="arrow1">
                 <img src={arrowLeft} alt="" />

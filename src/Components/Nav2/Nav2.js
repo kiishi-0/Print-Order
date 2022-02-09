@@ -11,9 +11,9 @@ class Nav2 extends React.Component{
                     <img src={burger} alt="burger bars"/>
                 </button>
                 <div class="burger-div">
-                    <a href="#">HOME</a>
-                    <a href="#">ABOUT</a>
-                    <a href="#">CONTACTS</a>
+                    <a href="#top">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#contact">CONTACTS</a>
                 </div>
             </nav>
         )

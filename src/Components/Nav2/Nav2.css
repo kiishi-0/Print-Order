@@ -5,15 +5,16 @@ button{
 }
 nav.nav2{
     border: 0;
+    box-shadow: 0 -2px 0 0 #707070;
     align-items: center;
+    padding-top: 10px;
     justify-content: flex-end;
-    padding: 10px 2% 10px 2%;
+    padding: 20px 2% 10px 2%;
 }
 nav.nav2 .burger-div{
     flex: 10;
     display: flex;
     justify-content: flex-end;
-    /* background-color: #a0a0ff; */
 }
 nav.nav2 .burger-div a{
     margin-left: 30px;
@@ -22,6 +23,5 @@ nav.nav2 .burger-div a{
 @media only screen and (max-width: 1024px) {
     .nav2 .burger-div a{
         margin-left: 30px;
-        /* background-color:aquamarine; */
     }
 }

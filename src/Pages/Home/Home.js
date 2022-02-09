@@ -12,12 +12,22 @@ class Home extends React.Component{
                 <header>
                     <Nav1 />
                     <Nav2 />
-                </header>
+                </header> 
                 <main>
-                    <div class="landing-container">
-                        <div class="landing"></div>
-                    </div>
+                    <section className="landing-container">
+                        <div className="landing"></div>
+                    </section>
                     <Categories />
+                    <section className='p-works-section'>
+                        <h3>Previous Works</h3>
+                        <div className='p-works-carousel-container'></div>
+                    </section>
+                    <section className='about-section'>
+                        <div className='about-container'></div>
+                    </section>
+                    <section className='clients-section'>
+                        <div className='clients-container'></div>
+                    </section>
                 </main>
             </div>
         )

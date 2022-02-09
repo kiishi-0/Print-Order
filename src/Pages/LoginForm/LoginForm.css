@@ -5,12 +5,14 @@ header{
     align-items: center;
   
 }
-.nav1{
+.login-section header.nav1{
     border: 0;
+    box-shadow: 0 0 0;
 }
 .login-section section{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .login-section section h1{
     width: 100%;
