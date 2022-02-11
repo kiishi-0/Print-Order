@@ -1,0 +1,19 @@
+.summary-div{
+    width: 100%;
+    /* background-color: red; */
+}
+.summary-div .orders{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.summary-div .orders .order{
+    width: 620px;
+    background-color: rgba(196, 196, 196, 21);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

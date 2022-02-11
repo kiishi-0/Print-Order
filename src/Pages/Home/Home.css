@@ -62,12 +62,18 @@
     .p-works-section .p-works-carousel-container{
         width: 80%;
     }
+    .home-div .clients-section .clients-container .img-container img{
+        width: 360px;
+    }
 }
 @media only screen and (max-width: 441px){
     .home-div .about-section .about-text{
         width: 100%;
         padding: 0 20px;
         text-align: center;
+    }
+    .home-div .clients-section .clients-container .img-container img{
+        width: 360px;
     }
 }
 
