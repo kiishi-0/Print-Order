@@ -10,7 +10,7 @@ textarea{
 .product-div .title-div{
     display: flex;
     align-items: flex-end;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .product-div .title-div h1, .product-div .title-div .carousel{
     width: 50%;
@@ -35,23 +35,23 @@ textarea{
     width: 100%;
     padding-left: 5%;
 }
-.product-div .product-details-div .details-div .sec-div{
+.product-div .product-details-div .details-div{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
 }
-.product-div .product-details-div .details-div .sec-div .sec{
+.product-div .product-details-div .details-div .sec{
     width: 45%;
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
-.product-div .product-details-div .details-div .sec-div .sec1 input[type= text], 
-.product-div .product-details-div .details-div .sec-div .sec1 input[type= number], 
-.product-div .product-details-div .details-div .sec-div .sec1 textarea, 
-.product-div .product-details-div .details-div .sec-div .sec2 textarea{
+.product-div .product-details-div .details-div .sec1 input[type= text], 
+.product-div .product-details-div .details-div .sec1 input[type= number], 
+.product-div .product-details-div .details-div .sec1 textarea, 
+.product-div .product-details-div .details-div .sec2 textarea{
     padding: 20px;
     margin: 15px 0;
     font-size: 18px;
