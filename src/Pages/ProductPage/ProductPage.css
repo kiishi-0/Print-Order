@@ -1,0 +1,85 @@
+textarea{
+    resize: none;
+}
+.product-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.product-div .title-div{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+.product-div .title-div h1, .product-div .title-div .carousel{
+    width: 50%;
+}
+.product-div .title-div .carousel .slide{
+    width: 550px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #707070;
+}
+.product-div h1{
+    /* background-color: red; */
+    padding-left: 5%;
+}
+.product-div .product-details-div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.product-div .product-details-div h2{
+    font-weight: 400;
+    width: 100%;
+    padding-left: 5%;
+}
+.product-div .product-details-div .details-div .sec-div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.product-div .product-details-div .details-div .sec-div .sec{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.product-div .product-details-div .details-div .sec-div .sec1 input[type= text], 
+.product-div .product-details-div .details-div .sec-div .sec1 input[type= number], 
+.product-div .product-details-div .details-div .sec-div .sec1 textarea, 
+.product-div .product-details-div .details-div .sec-div .sec2 textarea{
+    padding: 20px;
+    margin: 15px 0;
+    font-size: 18px;
+    border: 0;
+    border: 1px solid #707070;
+    border-radius: 10px;
+}
+.product-div .product-details-div .details-div .sec2 span{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    padding: 20px 0;
+    margin: 15px 0;
+}
+.product-div .product-details-div .details-div button{
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background ease .25s;
+}
+.product-div .product-details-div .details-div button:hover{
+    background-color: #9c9c9c;
+}
+@media only screen and (max-width: 441px){
+    .product-div .product-details-div .details-div .sec{
+        width: 100%;
+    }
+}

@@ -5,6 +5,8 @@ import CategoriesPage from './Pages/CategoriesPage/CategoriesPage'
 import LoginForm from './Pages/LoginForm/LoginForm'
 import SignUpForm from './Pages/SignUpForm/SignUpForm'
 import SummaryPage from './Pages/SummaryPage/SummaryPage'
+import ProductPage from './Pages/ProductPage/ProductPage'
+
 
 function App() {
   return (
@@ -17,7 +19,7 @@ function App() {
           <Route exact path="/signup" component={SignUpForm} />
           <Route path="/" component={Home} />
         </Switch> */}
-        <SummaryPage />
+        <ProductPage />
       </div>
     </Router>
     
