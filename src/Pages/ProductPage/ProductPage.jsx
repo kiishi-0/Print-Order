@@ -25,28 +25,31 @@ class ProductPage extends React.Component{
                     <div className="product-details-div">
                         <h2>Job Details</h2>
                         <form action="#" method="post" className='details-div'>
-                            <div className='sec1 sec'>
-                                <input type="text" name="title" id="title" placeholder='Job Title'/>
-                                <input type="number" name="copies" id="copies" placeholder='Number of Copies'/>
-                                <input type="number" name="pages" id="pages" placeholder='Number of Pages'/>
-                                <textarea name="description" id="description" cols="30" rows="5" placeholder='Job Description'></textarea>
+                            <div className="sec-div">
+                                <div className='sec1 sec'>
+                                    <input type="text" name="title" id="title" placeholder='Job Title'/>
+                                    <input type="number" name="copies" id="copies" placeholder='Number of Copies'/>
+                                    <input type="number" name="pages" id="pages" placeholder='Number of Pages'/>
+                                    <textarea name="description" id="description" cols="30" rows="5" placeholder='Job Description'></textarea>
+                                </div>
+                                <div className='sec2 sec'>
+                                    <span className='date'>
+                                        <p>Due Date: </p>
+                                        {/* <img src={cal} alt="calender" srcset="" width={20}/> */}
+                                        <input type="date" name="due-date" id="due-date" />
+                                    </span>
+                                    <span className='design'>
+                                        {/* <p>Job Design: </p> */}
+                                        <input type="file" name="design" id="design" />
+                                    </span>
+                                    <span className='design'>
+                                        {/* <p>Job Content: </p> */}
+                                        <input type="file" name="content" id="content" />
+                                    </span>
+                                    <textarea name="address" id="address" cols="30" rows="5" placeholder='Address'></textarea>
+                                </div>
                             </div>
-                            <div className='sec2 sec'>
-                                <span className='date'>
-                                    <p>Due Date</p>
-                                    <img src={cal} alt="calender" srcset="" width={20}/>
-                                    <input type="date" name="due-date" id="due-date" />
-                                </span>
-                                <span className='design'>
-                                    <p>Job Design: </p>
-                                    <input type="file" name="design" id="design" />
-                                </span>
-                                <span className='design'>
-                                    <p>Job Content: </p>
-                                    <input type="file" name="content" id="content" />
-                                </span>
-                                <textarea name="address" id="address" cols="30" rows="5" placeholder='Address'></textarea>
-                            </div>
+                            
                             <button>SUBMIT</button>
                         </form>
                     </div>

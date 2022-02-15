@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/signup" component={SignUpForm} />
           <Route path="/" component={Home} />
         </Switch> */}
-        <ProductPage />
+        <SummaryPage />
       </div>
     </Router>
     

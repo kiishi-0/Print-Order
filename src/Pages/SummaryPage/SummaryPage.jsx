@@ -42,7 +42,7 @@ class SummaryPage extends React.Component{
                                 </div>
                             </div>
                             <div className='info-section sec'>
-                                <h4>ADDITIONAL INFORMATION:</h4>
+                                <h4>JOB DESCRIPTION:</h4>
                                 <div className='info'>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                     Ut tempor senectus arcu cursus tortor odio ornare velit 
@@ -82,7 +82,7 @@ class SummaryPage extends React.Component{
                                 </div>
                             </div>
                             <div className='info-section sec'>
-                                <h4>ADDITIONAL INFORMATION:</h4>
+                                <h4>JOB DESCRIPTION:</h4>
                                 <div className='info'>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                     Ut tempor senectus arcu cursus tortor odio ornare velit 
@@ -122,7 +122,7 @@ class SummaryPage extends React.Component{
                                 </div>
                             </div>
                             <div className='info-section sec'>
-                                <h4>ADDITIONAL INFORMATION:</h4>
+                                <h4>JOB DESCRIPTION:</h4>
                                 <div className='info'>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                     Ut tempor senectus arcu cursus tortor odio ornare velit 
