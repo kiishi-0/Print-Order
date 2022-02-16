@@ -3,6 +3,7 @@ import '../Home/Home.css'
 import Nav1 from '../../Components/Nav1/Nav1';
 import Nav2 from '../../Components/Nav2/Nav2';
 import clientimg from '../../images/clientIcons.png';
+import land from '../../images/landing-3.jpg'
 import Categories from '../../Components/Categories/Categories';
 
 
@@ -16,7 +17,9 @@ class Home extends React.Component{
                 </header> 
                 <main className='home-div'>
                     <section className="landing-container">
-                        <div className="landing"></div>
+                        <div className="landing">
+                            <img src={land} alt="printing"/>
+                        </div>
                     </section>
                     <Categories />
                     <section className='p-works-section'>
